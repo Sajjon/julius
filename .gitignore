@@ -4,6 +4,7 @@
 .vs
 .vscode
 /CMakeSettings.json
+*.xcodeproj/
 
 # Generated resources
 src/platform/version.c
