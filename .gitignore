@@ -1,10 +1,12 @@
+# resources
+original_resources/
+
 # IDE data
 .kdev4
 *.kdev4
 .vs
 .vscode
 /CMakeSettings.json
-*.xcodeproj/
 
 # Generated resources
 src/platform/version.c
