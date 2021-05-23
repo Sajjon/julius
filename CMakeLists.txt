@@ -185,6 +185,7 @@ set(ZLIB_FILES
 
 set(PLATFORM_FILES
     ${PROJECT_SOURCE_DIR}/src/julius.c
+    ${PROJECT_SOURCE_DIR}/src/main.c
     ${PROJECT_SOURCE_DIR}/src/app/platform/arguments.c
     ${PROJECT_SOURCE_DIR}/src/app/platform/cursor.c
     ${PROJECT_SOURCE_DIR}/src/app/platform/file_manager.c

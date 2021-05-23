@@ -360,6 +360,7 @@
 		486167C8265A394F006B53D9 /* construction_building.c in Sources */ = {isa = PBXBuildFile; fileRef = 48616665265A394F006B53D9 /* construction_building.c */; };
 		486167C9265A394F006B53D9 /* maintenance.c in Sources */ = {isa = PBXBuildFile; fileRef = 48616667265A394F006B53D9 /* maintenance.c */; };
 		486167CA265A394F006B53D9 /* building_state.c in Sources */ = {isa = PBXBuildFile; fileRef = 48616668265A394F006B53D9 /* building_state.c */; };
+		486167CD265A92CC006B53D9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 486167CC265A92CC006B53D9 /* main.c */; };
 		48909D9426597DD90055BEA9 /* tinyfiledialogs.c in Sources */ = {isa = PBXBuildFile; fileRef = 48909A8026597DD80055BEA9 /* tinyfiledialogs.c */; };
 		48909D9526597DD90055BEA9 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 48909A8626597DD80055BEA9 /* deflate.c */; };
 		48909D9626597DD90055BEA9 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 48909A8826597DD80055BEA9 /* crc32.c */; };
@@ -1102,6 +1103,8 @@
 		48616667265A394F006B53D9 /* maintenance.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = maintenance.c; sourceTree = "<group>"; };
 		48616668265A394F006B53D9 /* building_state.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = building_state.c; sourceTree = "<group>"; };
 		48616669265A394F006B53D9 /* properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = properties.h; sourceTree = "<group>"; };
+		486167CB265A92BD006B53D9 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		486167CC265A92CC006B53D9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		48908BC3265927070055BEA9 /* JuliusXcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JuliusXcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		48909A0326597DD80055BEA9 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		48909A0426597DD80055BEA9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -2356,6 +2359,8 @@
 			children = (
 				48616389265A394E006B53D9 /* app */,
 				48909BC326597DD80055BEA9 /* julius.c */,
+				486167CB265A92BD006B53D9 /* main.h */,
+				486167CC265A92CC006B53D9 /* main.c */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -2614,6 +2619,7 @@
 				48616713265A394F006B53D9 /* request.c in Sources */,
 				486166D1265A394F006B53D9 /* keyboard.c in Sources */,
 				486166BC265A394F006B53D9 /* service.c in Sources */,
+				486167CD265A92CC006B53D9 /* main.c in Sources */,
 				486167A8265A394F006B53D9 /* system.c in Sources */,
 				4861670A265A394F006B53D9 /* settings.c in Sources */,
 				48616793265A394F006B53D9 /* video.c in Sources */,
