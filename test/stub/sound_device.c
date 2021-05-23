@@ -1,4 +1,4 @@
-#include "sound/device.h"
+#include "app/sound/device.h"
 
 void sound_device_open(void)
 {}

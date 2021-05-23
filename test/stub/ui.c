@@ -1,10 +1,10 @@
-#include "graphics/window.h"
-#include "window/message_dialog.h"
-#include "window/popup_dialog.h"
-#include "window/mission_end.h"
-#include "window/victory_dialog.h"
+#include "app/graphics/window.h"
+#include "app/window/message_dialog.h"
+#include "app/window/popup_dialog.h"
+#include "app/window/mission_end.h"
+#include "app/window/victory_dialog.h"
 
-#include "city/victory.h"
+#include "app/city/victory.h"
 
 int window_is(window_id id)
 {

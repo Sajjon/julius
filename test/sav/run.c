@@ -1,8 +1,8 @@
-#include "core/backtrace.h"
-#include "core/time.h"
-#include "game/file.h"
-#include "game/game.h"
-#include "game/settings.h"
+#include "app/core/backtrace.h"
+#include "app/core/time.h"
+#include "app/game/file.h"
+#include "app/game/game.h"
+#include "app/game/settings.h"
 
 #ifdef _MSC_VER
 #include <direct.h>

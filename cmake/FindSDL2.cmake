@@ -70,7 +70,7 @@ GET_SDL_EXT_DIR(SDL_EXT_DIR "")
 IF(ANDROID_BUILD)
     STRING(TOLOWER ${CMAKE_BUILD_TYPE} ANDROID_BUILD_DIR)
     SET(SDL2_LIBRARY SDL2)
-    SET(SDL2_ANDROID_HOOK ${SDL_EXT_DIR}/src/main/android/SDL_android_main.c)
+    SET(SDL2_ANDROID_HOOK ${SDL_EXT_DIR}/src/app/main/android/SDL_android_main.c)
     link_directories(${PROJECT_SOURCE_DIR}/android/SDL2/build/intermediates/ndkBuild/${ANDROID_BUILD_DIR}/obj/local/${ANDROID_ABI})
 
     SET(SDL2_INCLUDE_DIR_TEMP ${SDL_EXT_DIR}/include)

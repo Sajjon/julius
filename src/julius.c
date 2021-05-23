@@ -1,25 +1,25 @@
 #include "SDL.h"
 
-#include "core/backtrace.h"
-#include "core/config.h"
-#include "core/encoding.h"
-#include "core/file.h"
-#include "core/lang.h"
-#include "core/time.h"
-#include "game/game.h"
-#include "game/settings.h"
-#include "game/system.h"
-#include "graphics/screen.h"
-#include "input/mouse.h"
-#include "input/touch.h"
-#include "platform/arguments.h"
-#include "platform/file_manager.h"
-#include "platform/joystick.h"
-#include "platform/keyboard_input.h"
-#include "platform/platform.h"
-#include "platform/prefs.h"
-#include "platform/screen.h"
-#include "platform/touch.h"
+#include "app/core/backtrace.h"
+#include "app/core/config.h"
+#include "app/core/encoding.h"
+#include "app/core/file.h"
+#include "app/core/lang.h"
+#include "app/core/time.h"
+#include "app/game/game.h"
+#include "app/game/settings.h"
+#include "app/game/system.h"
+#include "app/graphics/screen.h"
+#include "app/input/mouse.h"
+#include "app/input/touch.h"
+#include "app/platform/arguments.h"
+#include "app/platform/file_manager.h"
+#include "app/platform/joystick.h"
+#include "app/platform/keyboard_input.h"
+#include "app/platform/platform.h"
+#include "app/platform/prefs.h"
+#include "app/platform/screen.h"
+#include "app/platform/touch.h"
 
 #include "tinyfiledialogs/tinyfiledialogs.h"
 
@@ -27,10 +27,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "platform/android/android.h"
-#include "platform/emscripten/emscripten.h"
-#include "platform/switch/switch.h"
-#include "platform/vita/vita.h"
+#include "app/platform/android/android.h"
+#include "app/platform/emscripten/emscripten.h"
+#include "app/platform/switch/switch.h"
+#include "app/platform/vita/vita.h"
 
 #if defined(_WIN32)
 #include <string.h>
@@ -41,9 +41,9 @@
 #endif
 
 #ifdef DRAW_FPS
-#include "graphics/window.h"
-#include "graphics/graphics.h"
-#include "graphics/text.h"
+#include "app/graphics/window.h"
+#include "app/graphics/graphics.h"
+#include "app/graphics/text.h"
 #endif
 
 #define INTPTR(d) (*(int*)(d))

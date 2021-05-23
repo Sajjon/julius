@@ -24,11 +24,11 @@ except_file(TEST_BUILDING_FILES "building/model.c" ${BUILDING_FILES})
 add_executable(translationcheck
     translation/check.c
     stub/log.c
-    ${PROJECT_SOURCE_DIR}/src/core/encoding.c
-    ${PROJECT_SOURCE_DIR}/src/core/encoding_korean.c
-    ${PROJECT_SOURCE_DIR}/src/core/encoding_simp_chinese.c
-    ${PROJECT_SOURCE_DIR}/src/core/encoding_trad_chinese.c
-    ${PROJECT_SOURCE_DIR}/src/core/string.c
+    ${PROJECT_SOURCE_DIR}/src/app/core/encoding.c
+    ${PROJECT_SOURCE_DIR}/src/app/core/encoding_korean.c
+    ${PROJECT_SOURCE_DIR}/src/app/core/encoding_simp_chinese.c
+    ${PROJECT_SOURCE_DIR}/src/app/core/encoding_trad_chinese.c
+    ${PROJECT_SOURCE_DIR}/src/app/core/string.c
     ${TRANSLATION_FILES}
 )
 
@@ -36,7 +36,7 @@ add_executable(compare
     sav/compare.c
     sav/sav_compare.c
     stub/log.c
-    ${PROJECT_SOURCE_DIR}/src/core/zip.c
+    ${PROJECT_SOURCE_DIR}/src/app/core/zip.c
 )
 
 add_executable(autopilot
@@ -50,7 +50,7 @@ add_executable(autopilot
     stub/sound_device.c
     stub/ui.c
     stub/video.c
-    ${PROJECT_SOURCE_DIR}/src/platform/file_manager.c
+    ${PROJECT_SOURCE_DIR}/src/app/platform/file_manager.c
     ${TEST_CORE_FILES}
     ${TEST_BUILDING_FILES}
     ${CITY_FILES}

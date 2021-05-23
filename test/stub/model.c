@@ -1,4 +1,4 @@
-#include "building/model.h"
+#include "app/building/model.h"
 
 static model_building buildings[] = {
 {0, 0, 0, 0, 0, 0},

@@ -1,7 +1,7 @@
-#include "input/hotkey.h"
-#include "input/keys.h"
-#include "input/mouse.h"
-#include "input/scroll.h"
+#include "app/input/hotkey.h"
+#include "app/input/keys.h"
+#include "app/input/mouse.h"
+#include "app/input/scroll.h"
 
 void hotkey_install_mapping(hotkey_mapping *mappings, int num_mappings)
 {

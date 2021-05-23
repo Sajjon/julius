@@ -1,5 +1,5 @@
-#include "core/lang.h"
-#include "core/encoding.h"
+#include "app/core/lang.h"
+#include "app/core/encoding.h"
 
 static uint8_t EMPTY[] = {0};
 

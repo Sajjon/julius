@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-#include "core/locale.h"
-#include "core/log.h"
-#include "translation/translation.h"
+#include "app/core/locale.h"
+#include "app/core/log.h"
+#include "app/translation/translation.h"
 
 static void check_language(const char *name, language_type language)
 {
