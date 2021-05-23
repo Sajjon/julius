@@ -1619,41 +1619,9 @@
 		486164BB265A394E006B53D9 /* game */ = {
 			isa = PBXGroup;
 			children = (
-				486164CF265A394E006B53D9 /* animation.c */,
-				486164BF265A394E006B53D9 /* animation.h */,
-				486164C0265A394E006B53D9 /* cheats.c */,
-				486164CD265A394E006B53D9 /* cheats.h */,
-				486164CA265A394E006B53D9 /* difficulty.c */,
-				486164D8265A394E006B53D9 /* difficulty.h */,
-				486164D7265A394E006B53D9 /* file_editor.c */,
-				486164C2265A394E006B53D9 /* file_editor.h */,
-				486164CE265A394E006B53D9 /* file_io.c */,
-				486164C1265A394E006B53D9 /* file_io.h */,
-				486164DA265A394E006B53D9 /* file.c */,
-				486164C9265A394E006B53D9 /* file.h */,
+				486167CF265A96C9006B53D9 /* game */,
 				486164BD265A394E006B53D9 /* game.c */,
 				486164D1265A394E006B53D9 /* game.h */,
-				486164CB265A394E006B53D9 /* mission.c */,
-				486164DE265A394E006B53D9 /* mission.h */,
-				486164D6265A394E006B53D9 /* orientation.c */,
-				486164C5265A394E006B53D9 /* orientation.h */,
-				486164C3265A394E006B53D9 /* resource.c */,
-				486164D4265A394E006B53D9 /* resource.h */,
-				486164D3265A394E006B53D9 /* settings.c */,
-				486164C6265A394E006B53D9 /* settings.h */,
-				486164D0265A394E006B53D9 /* speed.c */,
-				486164BE265A394E006B53D9 /* speed.h */,
-				486164C7265A394E006B53D9 /* state.c */,
-				486164DC265A394E006B53D9 /* state.h */,
-				486164D9265A394E006B53D9 /* system.h */,
-				486164DB265A394E006B53D9 /* tick.c */,
-				486164C8265A394E006B53D9 /* tick.h */,
-				486164D2265A394E006B53D9 /* time.c */,
-				486164BC265A394E006B53D9 /* time.h */,
-				486164CC265A394E006B53D9 /* tutorial.c */,
-				486164DD265A394E006B53D9 /* tutorial.h */,
-				486164C4265A394E006B53D9 /* undo.c */,
-				486164D5265A394E006B53D9 /* undo.h */,
 			);
 			path = game;
 			sourceTree = "<group>";
@@ -2120,6 +2088,46 @@
 				4861665B265A394F006B53D9 /* warehouse.h */,
 			);
 			path = building;
+			sourceTree = "<group>";
+		};
+		486167CF265A96C9006B53D9 /* game */ = {
+			isa = PBXGroup;
+			children = (
+				486164CF265A394E006B53D9 /* animation.c */,
+				486164BF265A394E006B53D9 /* animation.h */,
+				486164C0265A394E006B53D9 /* cheats.c */,
+				486164CD265A394E006B53D9 /* cheats.h */,
+				486164CA265A394E006B53D9 /* difficulty.c */,
+				486164D8265A394E006B53D9 /* difficulty.h */,
+				486164D7265A394E006B53D9 /* file_editor.c */,
+				486164C2265A394E006B53D9 /* file_editor.h */,
+				486164CE265A394E006B53D9 /* file_io.c */,
+				486164C1265A394E006B53D9 /* file_io.h */,
+				486164DA265A394E006B53D9 /* file.c */,
+				486164C9265A394E006B53D9 /* file.h */,
+				486164CB265A394E006B53D9 /* mission.c */,
+				486164DE265A394E006B53D9 /* mission.h */,
+				486164D6265A394E006B53D9 /* orientation.c */,
+				486164C5265A394E006B53D9 /* orientation.h */,
+				486164C3265A394E006B53D9 /* resource.c */,
+				486164D4265A394E006B53D9 /* resource.h */,
+				486164D3265A394E006B53D9 /* settings.c */,
+				486164C6265A394E006B53D9 /* settings.h */,
+				486164D0265A394E006B53D9 /* speed.c */,
+				486164BE265A394E006B53D9 /* speed.h */,
+				486164C7265A394E006B53D9 /* state.c */,
+				486164DC265A394E006B53D9 /* state.h */,
+				486164D9265A394E006B53D9 /* system.h */,
+				486164DB265A394E006B53D9 /* tick.c */,
+				486164C8265A394E006B53D9 /* tick.h */,
+				486164D2265A394E006B53D9 /* time.c */,
+				486164BC265A394E006B53D9 /* time.h */,
+				486164CC265A394E006B53D9 /* tutorial.c */,
+				486164DD265A394E006B53D9 /* tutorial.h */,
+				486164C4265A394E006B53D9 /* undo.c */,
+				486164D5265A394E006B53D9 /* undo.h */,
+			);
+			name = game;
 			sourceTree = "<group>";
 		};
 		48908BBA265927070055BEA9 = {
