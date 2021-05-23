@@ -1180,6 +1180,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48616388265A3787006B53D9 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				48909D4C26597DD90055BEA9 /* building */,
+				48909AA726597DD80055BEA9 /* city */,
+				48909ADF26597DD80055BEA9 /* core */,
+				48909D4526597DD90055BEA9 /* editor */,
+				48909D2C26597DD90055BEA9 /* empire */,
+				48909B8726597DD80055BEA9 /* figure */,
+				48909B4126597DD80055BEA9 /* figuretype */,
+				48909BD926597DD80055BEA9 /* game */,
+				48909D0426597DD90055BEA9 /* graphics */,
+				48909B7426597DD80055BEA9 /* input */,
+				48909C2426597DD80055BEA9 /* map */,
+				48909BAD26597DD80055BEA9 /* platform */,
+				48909BFD26597DD80055BEA9 /* scenario */,
+				48909D3826597DD90055BEA9 /* sound */,
+				48909B6426597DD80055BEA9 /* translation */,
+				48909B0E26597DD80055BEA9 /* widget */,
+				48909C6226597DD80055BEA9 /* window */,
+			);
+			name = app;
+			sourceTree = "<group>";
+		};
 		48908BBA265927070055BEA9 = {
 			isa = PBXGroup;
 			children = (
@@ -1415,23 +1439,8 @@
 		48909AA626597DD80055BEA9 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				48909D4C26597DD90055BEA9 /* building */,
-				48909AA726597DD80055BEA9 /* city */,
-				48909ADF26597DD80055BEA9 /* core */,
-				48909D4526597DD90055BEA9 /* editor */,
-				48909D2C26597DD90055BEA9 /* empire */,
-				48909B8726597DD80055BEA9 /* figure */,
-				48909B4126597DD80055BEA9 /* figuretype */,
-				48909BD926597DD80055BEA9 /* game */,
-				48909D0426597DD90055BEA9 /* graphics */,
-				48909B7426597DD80055BEA9 /* input */,
-				48909C2426597DD80055BEA9 /* map */,
-				48909BAD26597DD80055BEA9 /* platform */,
-				48909BFD26597DD80055BEA9 /* scenario */,
-				48909D3826597DD90055BEA9 /* sound */,
-				48909B6426597DD80055BEA9 /* translation */,
-				48909B0E26597DD80055BEA9 /* widget */,
-				48909C6226597DD80055BEA9 /* window */,
+				48909BC326597DD80055BEA9 /* julius.c */,
+				48616388265A3787006B53D9 /* app */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -1762,7 +1771,6 @@
 				48909BBF26597DD80055BEA9 /* haiku */,
 				48909BD126597DD80055BEA9 /* joystick.c */,
 				48909BBB26597DD80055BEA9 /* joystick.h */,
-				48909BC326597DD80055BEA9 /* julius.c */,
 				48909BC126597DD80055BEA9 /* keyboard_input.c */,
 				48909BD726597DD80055BEA9 /* keyboard_input.h */,
 				48909BAF26597DD80055BEA9 /* log.c */,
